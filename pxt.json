@@ -1,0 +1,34 @@
+{
+    "name": "3D GAME",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "jump-Raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.4",
+        "multiplayer": "*",
+        "Code Ninjas Camps": "github:code-ninjas-home-office/camps#2be25f6c0a8847c01e620b5d4e2d53678217c918",
+        "browser-events": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.22",
+        "tag": "v1.8.22",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/6017af228c87817006b555668c65933bf3cbff4c",
+        "target": "2.0.63",
+        "pxt": "7.4.26",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
